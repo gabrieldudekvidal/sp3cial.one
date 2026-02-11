@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+body {
+    background-color: #FFF8F0;
+    font-family: "Lora", serif;
+
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+i {
+    font-size: 0.75rem;
+}
+
+.en {
+    color: #676767;
+}
+
+.ch {
+    color: #D4A94F;
+}
+
+.btn {     
+    width: fit-content;     
+    background-color: #CC4B4B;
+    color: #D4A94F;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #D4A94F;
+}
+
+.con {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: #ffffff; 
+    padding: 32px 24px;
+    border-radius: 14px;
+    width: 450px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.06);
+    background-image:
+        radial-gradient(circle at 0 0, rgba(0,0,0,0.06) 0, transparent 35%),
+        radial-gradient(circle at 100% 0, rgba(0,0,0,0.05) 0, transparent 35%),
+        radial-gradient(circle at 0 100%, rgba(0,0,0,0.05) 0, transparent 35%),
+        radial-gradient(circle at 100% 100%, rgba(0,0,0,0.06) 0, transparent 35%);
+    background-blend-mode: multiply;
+    background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='40' height='40' patternTransform='scale(1) rotate(0)'><rect x='0' y='0' width='100%' height='100%' fill='%23fffceeff'/><path d='M11 6a5 5 0 01-5 5 5 5 0 01-5-5 5 5 0 015-5 5 5 0 015 5'  stroke-width='1' stroke='none' fill='%23fff5e8ff'/></pattern></defs><rect width='800%' height='800%' transform='translate(-22,0)' fill='url(%23a)'/></svg>")
+}
+
+.con p {
+    text-align: left;
+    font-size: 0.8rem;
+}
+
+.con-btn {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.con-img {
+    margin-bottom: 40px;
+    margin-top:  20px;
+}
+
+.img-letter {
+    width: 80px;
+}
+
+.img-pic {
+    width: 400px;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+
+   .con {
+        width: 80%;
+   }
+
+   .img-pic {
+        width: 85%;
+   }
+   
+}
